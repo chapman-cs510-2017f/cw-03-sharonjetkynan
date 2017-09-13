@@ -1,4 +1,4 @@
-def test1(outlist):
+def test1():
     """Test function for nosetests
     Any function name starting with prefix test_ will be automatically run
     by nose. Ideally these should be put in a separate file that also
@@ -11,17 +11,21 @@ def test1(outlist):
     suppressed unless there is a failure, where it can be used for
     debugging.
     """
-    if type(outlist) == list:
-        print("return a list")
-    else:
-        print("not a list")
-        return False
+    know=[1,1,2,3,5]
+    ret=fibonacci(5)
     
-    for i in range (0,n):
-        print(outlist[i])
-    return True
+    assert type(ret) == list
+    
+    print(ret)
+    
+    assert len(ret) == len(know)
+    
+    assert know == ret
+    
+        
+    return
 
-def test2(n,fn):
+def test2():
     """Test function for nosetests
     Any function name starting with prefix test_ will be automatically run
     by nose. Ideally these should be put in a separate file that also
@@ -34,13 +38,13 @@ def test2(n,fn):
     suppressed unless there is a failure, where it can be used for
     debugging.
     """
-    f_list = fibonacci(n)
-    print(f_list[n-1])
-    if f_list[n-1]== fn:
-        return True
-    else:
-        print("not list")
-        return False
+    f_list = fibonacci(8)
+    print(f_list[7])
+    assert f_list[7] == 21
+    
+    
+    t=-1
+    asset fibonacci(t) == False
   
 
 def fibonacci(n):
@@ -79,7 +83,7 @@ def fibonacci(n):
         f1=f2
         f2=fn
    
-    out.append(f1)
+    """out.append(f1) WRONG!!""" 
     return out
 
 n=8
@@ -88,20 +92,14 @@ ret=fibonacci(n)
 
 
 
-
-if test1(ret) == True:
-    print("pass test1")
-else:
-    print("fail test1")
+print("test1")
+test1()
 
 f8=21
-if test2(8,21) == True:
-    print("pass test2")
-else:
-    print("fail test2")
+print("test2")
+test2()
 
-t=-1
-ret1=fibonacci(t)
+
 
 
 

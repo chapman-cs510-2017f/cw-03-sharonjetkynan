@@ -32,10 +32,4 @@ def fibonacci(n):
     out.append(f1)
     return out
 
-n=8
-ret=fibonacci(n)
-if type(ret) == list:
-    print("return a list")
-for i in range (0,n):
-    print(ret[i])
     
