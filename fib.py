@@ -2,15 +2,25 @@
 import sequences
 
 def main(local_argv):
-    """Main function
-    See below for why this would exist. The local_argv argument lists command
-    line arguments taken from sys.argv within the protected main block below.
     """
-    firstargv = int(local_argv[0])
-    ret=sequences.fibonacci(firstargv)
-    print(firstargv)
-    print(ret[len(ret)-1])
-    return
+    local_argv is the argument list, progrom name is first arugment
+    this function prints the fibonacci list calcuated by the command line argument n 
+    
+    """
+   
+    if len(local_argv) != 2:
+        print("must add one and only one command argument ")
+        return
+
+        
+    argument_n = int(local_argv[1]) #remember, this is the 2nd argument in command line
+    retList =sequences.fibonacci(argument_n)
+    #print("fibonacci("+str(argument_n)+")=")
+    returnStr = ''
+    for item in retList:
+        returnStr += str(item)+' '
+    print(returnStr)
+    return retList
 
 # After the body of the module, you can optionally create a protected main 
 # section to place executable scripting code.
