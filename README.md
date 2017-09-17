@@ -28,7 +28,14 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+1. Python and Bash are so seemlessly connected.
+2. Python is more friendly than bash to me.
+3. Bash is so flexible in manuplating strings.
+4. Test is necessary! assert is great.
+5. in bash , local_argv is the argument list, progrom name is first arugment
+6. echo -e "$j,\c" >> fibs.csv  ## >> operator. This will append data from a command to the end of a text file. -e and \c make the appendation with no newlines in the file.
+7. 
+
 
 ## Honor Pledge
 
@@ -39,4 +46,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Sharon, Jianhua, Kynan**
