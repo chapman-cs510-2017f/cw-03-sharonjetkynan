@@ -22,7 +22,7 @@ if [ -e "$FILE" ]
        mv "$FILE" fibs.csv.bak
    fi
 
-while [ $i -le 5 ]
+while [ $i -le 10000 ]
   do 
   echo "n="$i
   outputString=$(python fib.py $i) #strange@@@, fib.py print a string (line 19 print(retList)) and Bash will convert to an array
