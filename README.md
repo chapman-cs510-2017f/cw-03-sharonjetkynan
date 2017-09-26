@@ -1,6 +1,6 @@
 # CS510 CW 3
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Sharon, Kynan, Jianhua**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-03-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-03-YOURNAME)
 
@@ -30,11 +30,11 @@ Analyze in this section what you found useful about this assignment in your own 
 
 1. Python and Bash are so seemlessly connected.
 2. Python is more friendly than bash to me.
-3. Bash is so flexible in manuplating strings.
-4. Test is necessary! assert is great.
-5. in bash , local_argv is the argument list, progrom name is first arugment
-6. echo -e "$j,\c" >> fibs.csv  ## >> operator. This will append data from a command to the end of a text file. -e and \c make the appendation with no newlines in the file.
-7. 
+3. Bash is so flexible in manipulating strings.
+4. Test is necessary! Assert is great.
+5. In bash , local_argv is the argument list, program name is first arugment
+6. Echo -e "$j,\c" >> fibs.csv  ## >> operator. This will append data from a command to the end of a text file. -e and \c make the appendation with no newlines in the file.
+7. Using the main function will definitely prove to be useful as functions and python scripts get more complicating.
 
 
 ## Honor Pledge
